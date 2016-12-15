@@ -1,0 +1,17 @@
+{
+  "name": "chivskape-server",
+  "version": "0.1.0",
+  "description": "A node.js server for chivskape.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Augie Luebbers",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "shortid": "^2.2.6",
+    "socket.io": "^1.7.1"
+  }
+}
